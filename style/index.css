@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+}
+.book-icon{
+    width: 100px;
+    height: 35px;
+}
+.navbar{
+    background-color: #F0FFF0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.heading > ul, li{
+    list-style: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.sign-in , .get-started{
+    padding: 7px 20px 7px 20px;
+    border-radius: 10pc;
+    border: none;
+    background-color: #21B573;
+    color: azure;
+    font-size: xx-small;
+}
+
+.mainbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#red{
+    color: red;
+}
+#green{
+    color: green;
+}
+#grey{
+    color: grey;
+}
+#table{
+    width: 450px;
+    height: 250px;
+}
+
+.reading-part > p, h1, button {
+  margin-bottom: 15px;
+}
+
+
+.icons{
+    height: 60px;
+    width: 60px;
+}
+
+.containers{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    box-shadow: 10px;
+}
+.topic{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .containers{
+        flex-direction: column;
+    }
+    
+    .header{
+        flex-direction: column;
+    }
+    .mainbar{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .containers{
+        flex-direction: column;
+    }
+    
+    .header{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .mainbar{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media only screen (min-width: 400px) and (max-width: 720px) {
+    .containers{
+        flex-direction: column;
+    }
+    
+    .header{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .mainbar{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+  }
